@@ -1,29 +1,37 @@
 <!DOCTYPE html><!--Inicio informando que será html-->
 
+<html lang="pt-br"><!--informação da lingaugem nativa do site -->
+
+
     <head> <!--inicio partizinha de cima-->
         <meta charset="utf-8"><!--permissao de caracteres especiais-->
         <title>SITE KIBELEZA</title><!--titulo partizinha de cima-->
-        <style> 
-            li{color: #231B59;}
-        </style>
+       
+        <!--CSS / ESTILO -->
+        <link rel="stylesheet" type="text/css" href="css/estilo.css"><!--adciona a linguagem css no codigo como um todo -->
     </head>
 
     <body> <!--Corpo site-->
         <header ><!--Cabeçalho-->
-            <h1>KiBeleza</h1>
-            <nav><!--Comando nav aponta para outras paginas normalmente-->
-                <ul><!--O ul Faz uma lista com bolinha-->
-                    <li>HOME</li><!--O li Faz as bolinhas com o que ta escrito, precisa do pai (ul) ou (ol) -->
-                    <li>SOBRE</li>
-                    <li>SERVIÇO</li>
-                    <li>CONTATO</li>
+            <div class="topoSocial"><!--class adiciona a caixa a uma class e da um nome -->
+                <h2>contato@kibeleza.com.br</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Whatsapp</a></li>
                 </ul>
+            </div>
+            <div class="topoMenu">
+            <h1>KiBeleza</h1>
+             <nav><!--Comando nav aponta para outras paginas normalmente-->
+                 <ul><!--O ul Faz uma lista com bolinha-->
+                     <li>HOME</li><!--O li Faz as bolinhas com o que ta escrito, precisa do pai (ul) ou (ol) -->
+                     <li>SOBRE</li>
+                     <li>SERVIÇO</li>
+                     <li>CONTATO</li>
+                 </ul>
             </nav><!--Fechamento nav-->
-            <ul>
-                <li><a href="#">INSTAGRAM</a></li><!--O (a) com href cria um link para onde voce mandar -->
-                <li><a href="#">FACEBOOK</a></li>
-                <li><a href="#">TWITTER</a></li>
-            </ul>
+            </div>
         </header><!--fim cabeçalho-->
 
         <section><!--O section é tipo um header, uma parte pra tu fazer o site meio generica da pra usar infinity -->
@@ -42,4 +50,4 @@
       
     </body> <!--fim corpo site-->
 
-</html
+</html>
