@@ -1,15 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Ubuntu:ital@1&display=swap');
+
+
 /*  
     Class eu começo identificando com ponto
     id eu começo com #
 */
 
-/*Topo*/
+/* 
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+*/
+
+.site{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
+    background: url("../img/more-leaves-on-green.png");
+}
 
 .topoSocial{
-    background: #480a2d;
+    background: #401230;
 }
 
 .topoMenu{
     background: #e7b3a4;
+}
+
+.topoRedeSocial{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topoRedeSocial ul{
+    display: flex;
+}
+
+.topoRedeSocial ul li{
+    margin:0 5px;
+    padding: 10px 0;
 
 }
+
+.topoRedeSocial ul li a{
+    padding: 10px;
+    margin: 5px;
+    background: white;
+}
+
+.topoRedeSocial h2{
+    color: #f2f2f2;
+    font-size: 1.2em;
+}
+
+.menuLogo{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menuLogo h1 a{
+    width: 300px;
+    height: 90px;
+    background: chartreuse;
+    display: block;
+    text-indent: -9999px;
+}
+
+.menuLogo nav ul{
+    display:flex;    
+}
+
+.menuLogo nav ul li{
+    margin: 2px;
+    background: #401230;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.menuLogo nav ul li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+.menuLogo nav ul li:hover{
+    background: #cccccc
+
+}
+
+.menuLogo nav ul li a:hover{
+    color: #e7b3a4;
+}
+
+
+
+
+
