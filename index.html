@@ -1,61 +1,124 @@
-<!DOCTYPE html><!--Inicio informando que será html-->
+<!DOCTYPE html>
+<!--Inicio informando que será html-->
 
-<html lang="pt-br"><!--informação da lingaugem nativa do site -->
+<html lang="pt-br">
+<!--informação da lingaugem nativa do site -->
 
 
-    <head> <!--inicio partizinha de cima-->
-        <meta charset="utf-8"><!--permissao de caracteres especiais-->
-        <title>SITE KIBELEZA</title><!--titulo partizinha de cima-->
-        <meta name="viewport" content="width=device-width, initial scale=1">
-       
-        <link rel="stylesheet" type="text/css" href="css/reset.css">
-        <link rel="stylesheet" type="text/css" href="css/estilo.css"><!--adciona a linguagem css no codigo como um todo -->
-    </head>
+<head>
+    <!--inicio partizinha de cima-->
+    <meta charset="utf-8">
+    <!--permissao de caracteres especiais-->
+    <title>SITE KIBELEZA</title>
+    <!--titulo partizinha de cima-->
+    <meta name="viewport" content="width=device-width, initial scale=1">
 
-    <body> <!--Corpo site-->
-        <header ><!--Cabeçalho-->
-            <div class="topoSocial"><!--class adiciona a caixa a uma class e da um nome -->
-                <div class="site topoRedeSocial">
-                    <h2>contato@kibeleza.com.br</h2>
-                    <ul>
-                        <li><a href="#">Facebook</a></li>
-                        <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Whatsapp</a></li>
-                        <li><a href="#">Twitter</a></li>
-                    </ul>
-                </div>
-            </div>    
-            <div class="topoMenu">
-                <div class="site menuLogo">
-                    <h1><a href="index.html">KiBeleza</a></h1>
-                    <nav><!--Comando nav aponta para outras paginas normalmente-->
-                        <ul><!--O ul Faz uma lista com bolinha-->
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">SOBRE</a></li>
-                            <li><a href="#">SERVIÇO</a></li>
-                            <li><a href="#">EQUIPE</a></li>
-                            <li><a href="#">CONTATO</a></li>
-                     
-                         </ul>
-                    </nav><!--Fechamento nav-->
-                 </div>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <!--adciona a linguagem css no codigo como um todo -->
+</head>
+
+<body>
+    <!--Corpo site-->
+    <header>
+        <!--Cabeçalho-->
+        <div class="topoSocial">
+            <!--class adiciona a caixa a uma class e da um nome -->
+            <div class="site topoRedeSocial">
+                <h2>contato@kibeleza.com.br</h2>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Whatsapp</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
             </div>
-        </header><!--fim cabeçalho-->
+        </div>
+        <div class="topoMenu">
+            <div class="site menuLogo">
+                <h1><a href="index.html">KiBeleza</a></h1>
+                <nav>
+                    <!--Comando nav aponta para outras paginas normalmente-->
+                    <ul>
+                        <!--O ul Faz uma lista com bolinha-->
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">SOBRE</a></li>
+                        <li><a href="#">SERVIÇO</a></li>
+                        <li><a href="#">EQUIPE</a></li>
+                        <li><a href="#">CONTATO</a></li>
 
-        <section><!--O section é tipo um header, uma parte pra tu fazer o site meio generica da pra usar infinity -->
-            <img src="img/banner.jpg" alt="Deserto Legal"><!--O src puxa a imagem da pasta que eu quero e o alt bota um nome pra imagem -->
-        </section>
-        
-        <section><!--O section é tipo um header, uma parte pra tu fazer o site meio generica da pra usar infinity -->
-            <article><!--O article é mias uasado em comentarios de pessoas pode conter mais texto e comentarios  -->
-                <h2>Sobre Kibeleza</h2>
-                <p>Deserto bem legal testando aqui bem bacana legal deserto ouoooo</p><!--o comando (p) representa o paragrafo -->
-            </article>
+                    </ul>
+                </nav>
+                <!--Fechamento nav-->
+            </div>
+        </div>
+    </header>
+    <!--fim cabeçalho-->
+
+    <section class="banner">
+        <!--O section é tipo um header, uma parte pra tu fazer o site meio generica da pra usar infinity -->
+        <img src="img/banner1.png" alt="Banner Kibeleza">
+        <!--O src puxa a imagem da pasta que eu quero e o alt bota um nome pra imagem -->
+    </section>
+
+    <section class="sobre site">
+        <!--O section é tipo um header, uma parte pra tu fazer o site meio generica da pra usar infinity -->
+        <h2>Sobre Kibeleza</h2>
+        <div>
             <article>
-                    <img src="img/nucleo.jfif" alt="Deserto Legal"><!--O src puxa a imagem da pasta que eu quero e o alt bota um nome pra imagem -->
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap
+                    into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
+                    release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+                    software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                <!--o comando (p) representa o paragrafo -->
             </article>
-        </section>
-      
-    </body> <!--fim corpo site-->
+            <!--O article é mias uasado em comentarios de pessoas pode conter mais texto e comentarios  -->
+            <article>
+                <img src="img/sobre.png" alt="Sobre o kibeleza">
+                <!--O src puxa a imagem da pasta que eu quero e o alt bota um nome pra imagem -->
+            </article>
+        </div>
+    </section>
+    <section class="galeria">
+        <img src="img/galeria1.jpg" alt="Galeria Kibeleza">
+        <img src="img/galeria1.jpg" alt="Galeria Kibeleza">
+        <img src="img/galeria1.jpg" alt="Galeria Kibeleza">
+        <img src="img/galeria1.jpg" alt="Galeria Kibeleza">
+        <img src="img/galeria1.jpg" alt="Galeria Kibeleza">
+        <img src="img/galeria1.jpg" alt="Galeria Kibeleza">
+    </section>
+
+    <section class="serviço">
+        <div>
+            <h2>Serviços</h2>
+                <div class="dif">
+                    <article>
+                        <img src="img/servico1.jpg">
+                        <p> Lorem Ipsum </p>
+                    </article>
+                    <article>  
+                    <img src="img/servico1.jpg">
+                        <p> Lorem Ipsum </p>
+                    </article>
+                    <article>
+                        <img src="img/servico1.jpg">
+                        <p> Lorem Ipsum </p>
+                    </article>
+                    <article>
+                        <img src="img/servico1.jpg">
+                        <p> Lorem Ipsum </p>
+                    </article>
+                        
+                    
+                        
+                    </article>
+                </div>            
+        </div>
+    </section>
+
+</body>
+<!--fim corpo site-->
 
 </html>
